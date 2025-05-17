@@ -40,6 +40,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 //        recipeViewModel.fetchAllRecipe()
+        //we need to write custom pagination
         enableEdgeToEdge()
         setContent {
             ComposePaging3P1Theme {
